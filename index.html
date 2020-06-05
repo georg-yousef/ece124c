@@ -81,7 +81,7 @@
 <h2>BE A MEMBER...</h2>
 
 <div class="Box02">
-  <form action="index.html" method="get" >
+  <form action="index.html" method="get" onsubmit="anyFunc()">
     <label for="first">First Name</label>
     <input type="text" class="what" id="first" name="usrname" required>
     
@@ -185,6 +185,13 @@
 <script src="myScript.js"></script>
 
 <script src="script1.js"></script>
+ 
+ 
+<script>
+function anyFunc() {
+  alert("The form was submitted");
+}
+</script> 
 
 </body>
 </html>
